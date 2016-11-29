@@ -162,7 +162,7 @@ hr.small {
 }
 .intro-header .site-heading,
 .intro-header .page-heading {
-  text-align: center;
+  text-align: left;
 }
 .intro-header .site-heading h1,
 .intro-header .page-heading h1 {
@@ -398,3 +398,18 @@ img::-moz-selection {
 body {
   -webkit-tap-highlight-color: #0085A1;
 }
+
+.hero-unit {
+padding: 60px;/* CHANGE PADDING HERE*/
+margin-top: 70px;
+margin-bottom: 30px; 
+font-size: 18px;
+font-weight: 200;
+line-height: 30px;
+color: inherit;
+background-color: none; /* CHANGE BACKGROUND HERE*/
+-webkit-border-radius: 6px;
+-moz-border-radius: 6px;
+border-radius: 6px;
+}
+
